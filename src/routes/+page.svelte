@@ -20,11 +20,12 @@
   div {
     display: flex;
     gap: 10px;
+    flex-wrap: wrap;
   }
 
   img {
     border: 3px solid var(--accent-color);
-    width: calc((var(--page-width) - 50px) / 4);
+    width: 140px;
     transition: filter 0.1s;
   }
 

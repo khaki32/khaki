@@ -4,11 +4,13 @@
   import Navbar from "$lib/Navbar.svelte";
 </script>
 
-<Navbar />
 
 <main>
   <div>
-    <slot></slot>
+    <Navbar />
+    <section>
+      <slot></slot>
+    </section>
   </div>
 </main>
 
@@ -17,12 +19,22 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
   }
 
   div {
+    width: 650px;
+  }
+
+  section {
     display: flex;
     flex-direction: column;
-    width: var(--page-width);
     padding: 1rem;
+  }
+
+  @media screen and (max-width: 650px) {
+    div {
+      width: 100vw;
+    }
   }
 </style>
