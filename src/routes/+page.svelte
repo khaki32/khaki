@@ -25,6 +25,11 @@
   img {
     border: 3px solid var(--accent-color);
     width: calc((var(--page-width) - 50px) / 4);
+    transition: filter 0.1s;
+  }
+
+  img:hover {
+    filter: brightness(90%);
   }
 
   h2 {
