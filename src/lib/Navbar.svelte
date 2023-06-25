@@ -22,7 +22,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 800px;
+    width: var(--page-width);
     padding: 1rem;
   }
 

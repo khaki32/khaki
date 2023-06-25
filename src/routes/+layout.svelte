@@ -22,7 +22,7 @@
   div {
     display: flex;
     flex-direction: column;
-    width: 800px;
+    width: var(--page-width);
     padding: 1rem;
   }
 </style>
