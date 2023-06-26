@@ -28,7 +28,8 @@
   section {
     display: flex;
     flex-direction: column;
-    padding: 1rem;
+    padding: 0 1rem 1rem 1rem;
+    gap: 1rem;
   }
 
   @media screen and (max-width: 650px) {
