@@ -1,0 +1,48 @@
+:root {
+  --accent-color: #8d5f49;
+}
+
+html {
+  font-size: 18px;
+}
+
+body {
+  font-family: Playfair Display, monospace;
+  background-color: #fff6f1;
+  color: #3f3b3b;
+}
+
+body,
+p,
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.4rem;
+}
+
+h3 {
+  font-size: 1.2rem;
+}
+
+h4 {
+  font-size: 1.2rem;
+  font-weight: normal;
+}
