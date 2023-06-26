@@ -4,12 +4,11 @@
   import Navbar from "$lib/Navbar.svelte";
 </script>
 
-
 <main>
   <div>
     <Navbar />
     <section>
-      <slot></slot>
+      <slot />
     </section>
   </div>
 </main>

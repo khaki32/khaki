@@ -12,7 +12,10 @@ body {
   color: #3f3b3b;
 }
 
-body, p, h1, h2 {
+body,
+p,
+h1,
+h2 {
   margin: 0;
 }
 

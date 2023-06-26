@@ -2,31 +2,31 @@
   <h2>favorite movies</h2>
   <div>
     <a href="/marriage-story">
-      <img src="/marriage-story.jpg" alt="marriage story">
+      <img src="/marriage-story.jpg" alt="marriage story" />
     </a>
     <a href="/before-sunrise.jpg">
-      <img src="/before-sunrise.jpg" alt="before sunrise">
+      <img src="/before-sunrise.jpg" alt="before sunrise" />
     </a>
     <a href="/before-sunset">
-      <img src="/before-sunset.jpg" alt="before sunset">
+      <img src="/before-sunset.jpg" alt="before sunset" />
     </a>
     <a href="/good-will-hunting">
-      <img src="/good-will-hunting.jpg" alt="good will hunting">
+      <img src="/good-will-hunting.jpg" alt="good will hunting" />
     </a>
   </div>
 </section>
 
 <style>
   div {
-    display: flex;
-    gap: 10px;
-    flex-wrap: wrap;
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(4, 1fr);
   }
 
   img {
     border: 3px solid var(--accent-color);
-    width: 140px;
     transition: filter 0.1s;
+    width: 100%;
   }
 
   img:hover {
