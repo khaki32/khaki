@@ -1,23 +1,39 @@
+<script>
+  // @ts-ignore
+  import marriageStory from "$lib/images/poster/marriage-story.jpg";
+  import beforeSunrise from "$lib/images/poster/before-sunrise.jpg";
+  import beforeSunset from "$lib/images/poster/before-sunset.jpg";
+  import goodWillHunting from "$lib/images/poster/good-will-hunting.jpg";
+</script>
+
 <section>
   <h2>favorite movies</h2>
-  <div>
+  <div class="row">
     <a href="/marriage-story">
-      <img src="/poster/marriage-story.jpg" alt="marriage story" />
+      <div class="wrapper">
+        <img src={marriageStory} alt="Marriage Story poster" />
+      </div>
     </a>
     <a href="/before-sunrise">
-      <img src="/poster/before-sunrise.jpg" alt="before sunrise" />
+      <div class="wrapper">
+        <img src={beforeSunrise} alt="Before Sunrise poster" />
+      </div>
     </a>
     <a href="/before-sunset">
-      <img src="/poster/before-sunset.jpg" alt="before sunset" />
+      <div class="wrapper">
+        <img src={beforeSunset} alt="Before Sunset poster" />
+      </div>
     </a>
     <a href="/good-will-hunting">
-      <img src="/poster/good-will-hunting.jpg" alt="good will hunting" />
+      <div class="wrapper">
+        <img src={goodWillHunting} alt="Good Will Hunting" />
+      </div>
     </a>
   </div>
 </section>
 
 <style>
-  div {
+  .row {
     display: grid;
     gap: 15px;
     grid-template-columns: repeat(4, 1fr);
@@ -28,10 +44,21 @@
     color: var(--accent-color);
   }
 
+  .wrapper {
+    width: 100%;
+    height: 0;
+    padding-top: 150%;
+    position: relative;
+    background-color: var(--accent-color);
+  }
+
   img {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
     border: 3px solid var(--accent-color);
     transition: filter 0.1s;
-    width: 100%;
   }
 
   img:hover {
