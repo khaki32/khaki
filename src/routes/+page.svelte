@@ -1,9 +1,9 @@
 <script>
   // @ts-ignore
-  import marriageStory from "$lib/images/poster/marriage-story.jpg";
-  import beforeSunrise from "$lib/images/poster/before-sunrise.jpg";
-  import beforeSunset from "$lib/images/poster/before-sunset.jpg";
-  import goodWillHunting from "$lib/images/poster/good-will-hunting.jpg";
+  import marriageStory from "$lib/images/poster/marriage-story.webp";
+  import beforeSunrise from "$lib/images/poster/before-sunrise.webp";
+  import beforeSunset from "$lib/images/poster/before-sunset.webp";
+  import goodWillHunting from "$lib/images/poster/good-will-hunting.webp";
 </script>
 
 <section>
